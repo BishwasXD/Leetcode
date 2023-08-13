@@ -8,7 +8,7 @@ var numIdenticalPairs = function (nums) {
       numberFrequency[nums[i]] += 1;
     }
   }
-  const values = Object.values(numberFrequency); //return array of values present in object
+  const values = Object.values(numberFrequency); //returns array of values present in object
 
   for (const value of values) {
     if (value > 1) {
